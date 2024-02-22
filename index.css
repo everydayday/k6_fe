@@ -9,7 +9,7 @@ main {
 }
 
 header {
-  background-color: black;
+  background-color:midnightblue;
   color: white;
   height: 100px;
   display: flex;
@@ -45,4 +45,27 @@ article a {
 article li:hover {
   background-color: goldenrod;
   color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section > h1 {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+section > div {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted gray;
+  padding: 20px;
+  margin: 10px;
 }
