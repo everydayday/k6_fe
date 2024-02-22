@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  width: 60%;
+  margin-left: 20%;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+article {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+article ul {
+  width: 80%;
+  background-color: beige;
+  margin-top: 20px;
+  list-style: none;
+}
+article li {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  border: 1px dotted gray;
+  padding: 10px;
+}
