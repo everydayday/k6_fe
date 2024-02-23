@@ -1,0 +1,14 @@
+img {
+  display: inline-flex;
+  margin: 10px; 
+}
+
+button { 
+  height: 40px;
+  background-color: dodgerblue;
+  color: white;
+  border: 0px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
