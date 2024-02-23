@@ -9,10 +9,23 @@ button {
   border-radius: 5px;
 }
 
-button:hover {
+.btGroup > button {
+  background-color: green;
+}
+
+
+#bt3 {
+  background-color: blueviolet;
+}
+
+button:hover, #btArea2 > button:hover {
   background-color: brown;
   color: white;
   cursor: pointer;
+}
+
+.btGroup {
+  background-color: antiquewhite;
 }
 
 h2 {
