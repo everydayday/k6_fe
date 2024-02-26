@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../index.css"> 
+  <link rel="stylesheet" href="./06.css">
+  <script src="./06.js"></script>
+  <title>K-디지털6기 - 주사위 맞추기</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>K-digital 6기 자바스크립트</h1>
+      <div>
+        <a href="../index.html">홈</a>
+      </div>
+    </header>
+    <section>
+      <h1>자바스크립트 주사위 만들기</h1>
+      <div>
+        <div>
+          <p>Computer</p>
+          <img src="./img/1.png" id="img1"/>
+        </div>
+        <div>
+          <p>User</p>
+          <img src="./img/1.png" id="img2"/>
+        </div>
+      </div>
+      <div>
+        <!-- 버튼에 이벤트 달기 -->
+        <button onclick="handleClick(1)">1</button> 
+        <button onclick="handleClick(2)">2</button> 
+        <button onclick="handleClick(3)">3</button> 
+        <button onclick="handleClick(4)">4</button> 
+        <button onclick="handleClick(5)">5</button> 
+        <button onclick="handleClick(6)">6</button> 
+      </div>
+      <div id='msg'></div>
+    </section>   
+  </main>
+</body>
+</html>
+ 

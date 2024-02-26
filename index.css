@@ -58,6 +58,10 @@ section > h1 {
   padding: 20px;
   justify-content: center;
   align-items: center;
+  border: 1px dotted gray;
+  background-color:aliceblue;
+  width: 80%;
+  margin-top: 10px;
 }
 
 section > div {
