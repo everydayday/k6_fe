@@ -1,0 +1,29 @@
+img {
+  display: inline-flex;
+  margin: 10px; 
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+button { 
+  height: 60px;
+  width: 60px;
+  background-color:darkorange;
+  color: white;
+  border: 0px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+
+button:hover {
+  background-color: olive;
+  cursor: pointer;
+}
