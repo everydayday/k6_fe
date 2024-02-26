@@ -18,20 +18,37 @@
         <a href="../index.html">홈</a>
       </div>
     </header>
+    <form name='myform'>
     <section>
       <h1>자바스크립트 단위환산</h1>
       <div>
-        <div>
-           
+        <div class='row'>
+           <div>
+            <select name="sel1" id="sel1">
+              <option value="℃" selected>섭씨온도(℃)</option>
+              <option value="℉" >화씨온도(℉)</option>
+            </select>
+           </div>
+           <div>
+            <select name="sel2" id="sel2">
+              <option value="℃" >섭씨온도(℃)</option>
+              <option value="℉" selected>화씨온도(℉)</option>
+            </select>
+           </div>
         </div>
-        <div>
-           
+        <div class='row'>
+           <div>
+            <input type="number" id="txt1">
+            <label for="txt1">℃</label>  
+           </div>
+           <div>
+            <input type="number" id="txt2" readonly>
+            <label for="txt2">℉</label>  
+           </div>
         </div>
-      </div>
-      <div>
-         
       </div> 
-    </section>   
+    </section>
+    </form>   
   </main>
 </body>
 </html>

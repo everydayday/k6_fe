@@ -1,29 +1,42 @@
-img {
-  display: inline-flex;
-  margin: 10px; 
-}
-
-p {
+section > div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: large;
-  font-weight: bold;
 }
 
-button { 
-  height: 60px;
-  width: 60px;
-  background-color:darkorange;
-  color: white;
-  border: 0px;
+.row {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  width: 90%;
   margin: 10px;
-  padding: 10px;
-  border-radius: 50%;
 }
 
+.row > div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 40%;  
+}
 
-button:hover {
-  background-color: olive;
-  cursor: pointer;
+select {
+  display: inline-flex;
+  width: 80%; 
+  height: 40px; 
+}
+
+input[type=number] {
+  display: inline-flex;
+  width: 60%; 
+  height: 40px; 
+}
+
+label {
+  font-size: large;
+  font-weight: bold; 
+}
+
+#txt2 {
+  background-color: beige;
 }
