@@ -3,7 +3,10 @@ document.addEventListener("DOMContentLoaded", ()=>{
   const upDownImg = document.querySelector("img") ;
   const numInput = document.getElementById("num1") ;
   const bt = document.querySelector("button") ;
-  const msg = document.querySelector("#msg") ;
+  const msg = document.querySelector("#msg") ; 
+
+  // input focus
+  numInput.focus();
 
   //랜덤수 생성 변수
   let n ;
@@ -11,14 +14,19 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
   //버튼의 클릭이벤트 달기
   bt.addEventListener("click", (e)=>{
-    e.preventDefault();
-
+    e.preventDefault(); 
     //랜덤수 생성
     // if (flag === false) {
     if (!flag) {  
       n = Math.floor(Math.random()*100) + 1 ; //1~100까지
-      console.log("n=", n); 
+      console.log("n=", n);        
       flag = true;
+
+      //입력 초기화
+      numInput.style.display = "inline" ;
+      numInput.value = "" ;
+      numInput.focus();
+      bt.innerHTML = "확인";
     }
     
     //input 박스 내용가져오기
@@ -32,7 +40,10 @@ document.addEventListener("DOMContentLoaded", ()=>{
     //숫자비교
     msg.innerHTML = "" ;
     if (n === parseInt(numInput.value)) {
-      upDownImg.setAttribute("src", "./img/good.png") ;
+      upDownImg.setAttribute("src", "./img/good.png") ; 
+      numInput.style.display = "none" ;
+      bt.innerHTML = "재시작" ;
+      flag = false ;
     }
     else if ( n > numInput.value) {
       upDownImg.setAttribute("src", "./img/up.png") ;
@@ -40,8 +51,5 @@ document.addEventListener("DOMContentLoaded", ()=>{
     else {
       upDownImg.setAttribute("src", "./img/down.png") ;
     }
-
   });
-
-
 });
