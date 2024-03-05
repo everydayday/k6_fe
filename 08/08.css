@@ -4,7 +4,12 @@ section > div {
   justify-content: center;
   align-items: center;  
 }
- 
+
+span {
+  font-size: medium;
+  font-weight: bold;
+  color: red;
+}
 
 /* input[type=number] { */
 input { 
