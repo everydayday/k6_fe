@@ -15,11 +15,6 @@ const handleChange = (s1, s2, lb1, lb2,t1,t2) => {
   t2.value = "" ;
 }
 
-const handleTxt = () => {
-  console.log("t")
-}
-
-
 document.addEventListener("DOMContentLoaded", ()=>{
   const sel1 = document.querySelector("#sel1") ;
   const sel2 = document.querySelector("#sel2") ;
