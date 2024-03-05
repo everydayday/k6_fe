@@ -1,25 +1,28 @@
-img {
-  display: inline-flex;
-  margin: 10px; 
-}
-
-p {
+section > div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  font-size: large;
-  font-weight: bold;
+  align-items: center;  
+}
+ 
+
+/* input[type=number] { */
+input { 
+  display: inline-flex;
+  width: 200px;
+  height: 40px;
+  text-align: center;
 }
 
 button { 
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 100px;
   background-color:darkorange;
   color: white;
   border: 0px;
   margin: 10px;
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 5px;
 }
 
 
