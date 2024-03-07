@@ -49,7 +49,6 @@ console.log("arr2 = ", arr2) ;
 arr2 = arr.map( (v,i) => v+"👎"+i ) ;
 console.log("arr2 = ", arr2) ;
 
-
 // console.log("배열 map함수") ;
 // arr2 = arr.map((v, i) => {
 //   console.log("map=> v :" , v, "map=> i :" , i  ) ; 
