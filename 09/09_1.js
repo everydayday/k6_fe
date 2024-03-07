@@ -12,6 +12,7 @@ console.log("arr2 = ", arr2);
 arr1 = [[1,2], [3,4]] ;
 // 요소가 reference type인 경우는 얕은복사(shallow copy)효과
 arr2 = arr1.map(v => v) ;
+// let arr3 = arr2.map (v => v) ;
 
 // 요소가 reference type인 경우는 깊은복사(deep copy)효과
 // JSON.stringify() : 객체를 JSON 문자열로 변환
