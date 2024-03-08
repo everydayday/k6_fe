@@ -1,0 +1,68 @@
+section > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+#numDisp {
+  margin: 20px 10px;
+}
+
+section span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width : 50px;
+  height: 50px; 
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.sp0 {
+  background-color: brown;
+  color:white;
+}
+
+.sp1 {
+  background-color:darkblue;
+  color:white;
+}
+
+.sp2 {
+  background-color:blueviolet;
+  color:white;
+}
+
+.sp3 {
+  background-color:darkgreen;
+  color:white;
+}
+
+.sp4 {
+  background-color:orange;
+  color:white;
+}
+
+
+button { 
+  height: 40px;
+  width: 150px;
+  background-color:darkorange;
+  color: white;
+  border: 0px;
+  margin: 10px;
+  padding: 10px; 
+  border-radius: 5px;
+}
+
+
+button:hover {
+  background-color: olive;
+  cursor: pointer;
+}
